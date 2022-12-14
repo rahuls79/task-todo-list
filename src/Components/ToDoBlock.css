@@ -1,0 +1,121 @@
+.toDo{
+    position:absolute;
+    top: 50px;
+    right:475px;
+    bottom:35px;
+    left:475px;
+}
+
+.todo-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.todo-head h2{
+    color: beige;
+}
+
+.todo-head img{
+    width: 25px;
+    height: 25px;
+    margin-top: 18.720px;
+    cursor: pointer;
+}
+
+.todo-newtask {
+    /* position: absolute; */
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+    background-color: rgb(20, 26, 73);
+    color: aliceblue;
+    border-radius: 7px;
+  }
+  
+.newtask-data{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkbox-addItem{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-top: 8px;
+    margin-top: 5px;
+}
+
+.checkbox-addItem:hover{
+    background-color: rgba(67, 104, 200, 0.756);
+}
+
+.input-text{
+    opacity: 100%;
+    border: 0;
+    border-color: rgb(20, 26, 73);
+    background: transparent;
+    padding: 5px 0px;
+    color: aliceblue;
+    border-style: hidden;
+}
+
+.button{
+
+  background-color: #c7cec7;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover{
+    background-color: rgb(134, 241, 187);
+}
+
+.todo-list{
+    /* display: flex; */
+    align-content: flex-start;
+    width: 100%;
+    background-color: rgb(20, 26, 73);
+    color: aliceblue;
+    border-radius: 7px;
+    margin-top: 20px;
+   
+}
+
+.todo-list p{
+    margin:0px;
+}
+
+.list-data{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    border-bottom: 2px;
+    padding-bottom: 5px;
+
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+
