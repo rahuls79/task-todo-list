@@ -7,8 +7,6 @@
     color: aliceblue;
     border-radius: 7px;
     margin: 5px;
-    /* padding-right: 5px; */
-    /* margin-left: 13px; */
 }
 
 .todo-items li{
@@ -29,7 +27,6 @@
 li img{
     visibility: hidden;
     align-items: flex-end;
-    /* padding-right: 0; */
     width: 15px;
     height: 15px;
     padding-top : 5px;
@@ -39,7 +36,6 @@ li img{
 li:hover img{
     visibility: visible;
     align-items: flex-end;
-    /* padding-right: 0; */
     width: 15px;
     height: 15px;
     padding-top : 5px;
