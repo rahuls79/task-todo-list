@@ -15,7 +15,7 @@ function ToDoBlock({nightMode,setNightMode}) {
 
   const [input,setInput] = useState("");
   const [todos,setTodos] = useState([]);
-  const [image,setImage] = useState(moon);
+  const [image,setImage] = useState(sun);
   const [style,setStyle] = useState(style1)
   const [title,setTitle] = useState(input);
 
